@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-large);
+
+    .app-brand {
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        color: var(--color-accent);
+        font-size: var(--font-size-extra-large);
+        font-weight: var(--font-weight-bold);
+    }
+}

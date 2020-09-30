@@ -1,0 +1,19 @@
+.multiplexer {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: var(--color-background);
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+
+    .navbar {
+        flex-shrink: 0;
+    }
+
+    .view {
+        position: relative;
+        flex-grow: 1;
+        overflow: auto;
+    }
+}

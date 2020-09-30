@@ -1,0 +1,15 @@
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .heading {
+        color: var(--color-primary);
+        font-weight: var(--font-weight-bold);
+    }
+
+    .message {
+        padding: var(--spacing-medium);
+    }
+}
